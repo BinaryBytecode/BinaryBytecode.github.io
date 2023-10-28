@@ -14,7 +14,7 @@ function onload() {
     .delete()
     .pause(500)
     .type("Hello, I'm CreepinGenius", { delay: 100 })
-    .type(", I'm a <span class='place'>minecraft player</span>", { delay: 100  })
+    .type(", I'm a <span class='place'>Minecraft player</span>", { delay: 100  })
     .delete(".place", { delay: 100  })
     .type("<span class='place'>figura scripter</span>", { delay: 100  })
     .go();
