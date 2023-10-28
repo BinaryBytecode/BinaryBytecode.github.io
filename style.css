@@ -8,8 +8,6 @@ body {
   background: #42455a;
 }
 
-.fa { display:inline; }
-
 section:nth-child(even) {
     background: #353748;
 }
@@ -41,7 +39,8 @@ section .text-container {
 section .text-container .text-box {
   margin: 20px;
   padding: 20px;
-  background: #00c2cb;
+  border-radius: 10px;
+  background: #0d1111;
 }
 section .text-container .text-box h3 {
   font-size: 30px;
