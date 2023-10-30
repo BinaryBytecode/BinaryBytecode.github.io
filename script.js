@@ -25,7 +25,6 @@ function onload() {
   }
   xhttp.send();
 }
-}
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
