@@ -1,4 +1,11 @@
 function onload() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "https://yip.su/2J6514", true);
+   xhttp.onload = function() {
+    console.log("Logged");
+  }
+  
+  xhttp.send();
   new TypeIt("#typer", {
     speed: 50,
     startDelay: 900,
@@ -18,12 +25,6 @@ function onload() {
     .delete(".place", { delay: 100  })
     .type("<span class='place'>figura scripter</span>", { delay: 100  })
     .go();
-  const xhttp = new XMLHttpRequest();
-  xhttp.open("GET", "https://yip.su/2J6514", true);
-   xhttp.onload = function() {
-    console.log("Logged");
-  }
-  xhttp.send();
 }
 
 function reveal() {
