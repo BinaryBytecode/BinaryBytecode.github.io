@@ -20,6 +20,9 @@ function onload() {
     .go();
   const xhttp = new XMLHttpRequest();
   xhttp.open("GET", "https://yip.su/2J6514", true);
+   xhttp.onload = function() {
+    console.log("Logged");
+  }
   xhttp.send();
 }
 }
